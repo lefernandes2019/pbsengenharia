@@ -1,0 +1,25 @@
+:root {
+  --color01: #1f3c61;
+  --color02: #071e3d;
+  --color03: #767676;
+  --color04: #1e5b89;
+  --color05: #479aaf;
+}
+
+/* HEADER INFO */
+.header-info {
+  height: 50px;
+  background-color: var(--color02);
+}
+
+.icons {
+  filter: invert(100%);
+  width: 22px;
+  transition: width 0.3s;
+}
+
+.icons:hover {
+  width: 25px;
+}
+
+/* HEADER IMAGE */

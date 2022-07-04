@@ -1,0 +1,62 @@
+.menu-hover{
+    position: relative;
+    transition: 0.4s;
+}
+
+.menu-hover:before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #1F3C61;
+    visibility: hidden;
+    transition: all 0.2s ease-in-out;
+  }
+
+
+
+.menu-hover:hover:before{
+    visibility: visible;
+    width: 100%;
+  }
+
+.menu-hover:hover{
+    font-size: 22px;
+}
+
+
+.menu-hover-2{
+  position: relative;
+  transition: 0.4s;
+}
+
+.menu-hover-2:before{
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #479aaf;
+  visibility: hidden;
+  transition: all 0.2s ease-in-out;
+}
+
+.menu-hover-2:hover:before{
+  visibility: visible;
+  width: 100%;
+} 
+
+.menu-hover-3{
+  position: relative;
+  transition: 0.4s;
+}
+
+.menu-hover-3:hover{
+  font-size: 22px;
+}
+
+
+
